@@ -1,0 +1,13 @@
+click==8.0.4
+elastic-transport==8.1.0
+elasticsearch==8.1.1
+Flask==2.0.3
+importlib-metadata==4.11.3
+itsdangerous==2.1.1
+Jinja2==3.0.3
+MarkupSafe==2.1.1
+progress==1.6
+typing_extensions==4.1.1
+urllib3==1.26.9
+Werkzeug==2.0.3
+zipp==3.7.0

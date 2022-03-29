@@ -1,0 +1,61 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #14213d;
+}
+
+.form-container {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.form-container h1 {
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.autocomplete-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.autocomplete-input {
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-top: 13px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 32px;
+    background-color: #ffffff;
+}
+
+.autocomplete-input:focus {
+    outline: none;
+}
+
+.options-container {
+    opacity: 0;
+    width: 100%;
+    border: 1px solid #000000;
+    border-top: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #ffffff;
+    transition: opacity 0.3s;
+}
+
+.options-container div {
+    padding: 5px 5px 5px 10px;
+}
